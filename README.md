@@ -17,6 +17,7 @@ Providing example of fastapi and redis interaction
 4. DELETE /redis/delete/ - delete key/value pair
 5. POST /redis/incr/ - increment value on 1
 6. POST /redis/incrby/ - increment value on particular value
+7. POST /redis/mset/ - bulk adding operation - add multiple pairs in one time
 #### OpenAPI/Swagger Specification:
 Provide a detailed specification of the API in OpenAPI/Swagger format - http://0.0.0.0:8000/docs
 
